@@ -19,12 +19,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
 
-      - name: Find all Markdown files in rules
+      - name: Find all MDX files in rules
         run: |
-          find rules -type f -name '*.md' > all_rules_files.txt
-          echo "Found Markdown files:"
+          find public/uploads/rules -type f -name 'rule.mdx' > all_rules_files.txt
+          echo "Found rule files:"
           cat all_rules_files.txt
 
       - name: Install dependencies

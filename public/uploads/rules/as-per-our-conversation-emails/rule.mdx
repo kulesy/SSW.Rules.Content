@@ -2,13 +2,13 @@
 archivedreason: null
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: https://www.ssw.com.au/people/adam-cogan
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  url: https://www.ssw.com.au/people/ulysses-maclaren
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: https://www.ssw.com.au/people/cameron-shaw
 - title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  url: https://www.ssw.com.au/people/justin-king
 created: 2021-10-08 00:50:35.021000+00:00
 createdBy: Jake Bayliss
 createdByEmail: 32888060+jakebayliss@users.noreply.github.com
@@ -27,7 +27,7 @@ related:
 - rule: public/uploads/rules/conduct-a-test-please/rule.mdx
 - rule: public/uploads/rules/seek-clarification-via-phone/rule.mdx
 - rule: public/uploads/rules/warn-then-call/rule.mdx
-- rule: public/uploads/rules/do-you-prepare-then-confirm-conversations-decisions/rule.mdx
+- rule: public/uploads/rules/prepare-then-confirm-decisions/rule.mdx
 seoDescription: Do you send "As Per Our Conversation" emails to ensure important conversations
   are documented and decisions are confirmed?
 title: Do you send "As Per Our Conversation" emails?
@@ -39,7 +39,7 @@ uri: as-per-our-conversation-emails
 
 Always follow up **important** conversations (usually via phone or IM) with an email that begins with the words "As per our conversation". The intent is to document what was said and agreed upon.
 
-When possible, go the extra mile and confirm the requirements by [sharing your screen](/do-you-share-screens-when-working-remotely) with the drafted email, and then add the words [“==checked by XXX==”](/checked-by-xxx) at the top before sending.
+When possible, go the extra mile and confirm the requirements by [sharing your screen](/do-you-share-screens-when-working-remotely) with the drafted email, and then add the words [“<mark style="background-color: #FEF08A">checked by XXX</mark>”](/checked-by-xxx) at the top before sending.
 
 <endIntro />
 
@@ -59,7 +59,7 @@ Watch the video below and see how a single email can make your job easier.
   body={<>
     ## Hi John
 
-==As per our conversation,== I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
+<mark style="background-color: #FEF08A">As per our conversation,</mark> I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
   </>}
   figurePrefix="good"
   figure='Using "As per our conversation" email'
@@ -84,7 +84,7 @@ Use this approach internally and with clients. As a result, expect to see "as pe
   body={<>
     **Notes:**
 
-* This is most likely to happen after a conversation started **by the client**. If **you** are the one making the first contact, also [prepare, then confirm conversations/decisions](/do-you-prepare-then-confirm-conversations-decisions)
+* This is most likely to happen after a conversation started **by the client**. If **you** are the one making the first contact, also [prepare, then confirm conversations/decisions](/prepare-then-confirm-decisions)
 * Add other interested parties into the 'as per our conversation' as required. _'As per our conversation with Bob, I am going to do xxx'_.
 * For a major architectural decision, etc. that could be difficult or expensive to change later, which was made against your recommendation, consider sending a ["For the record" email](/do-you-send-a-for-the-record-email-when-you-disagree).
 
@@ -125,7 +125,7 @@ In this case, it's still important to record everything in an email, starting w
   body={<>
     ## Hi John
 
-==I tried calling you but didn't get through.== I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
+<mark style="background-color: #FEF08A">I tried calling you but didn't get through.</mark> I am going to offer the client a Spec Review for &#123;&#123; $ &#125;&#125;
   </>}
   figurePrefix="good"
   figure="Email when you can't reach the person by calling"
@@ -159,9 +159,9 @@ When you have an image or other information, remember to keep the main reason te
 
 ![Figure: Screenshot of Power BI error](/uploads/rules/as-per-our-conversation-emails/powerbi-error.png)
 
-==I couldn't call you as I’m still in the hospital.==
+<mark style="background-color: #FEF08A">I couldn't call you as I’m still in the hospital.</mark>
 
-1. ==Can you fix this?==
+1. <mark style="background-color: #FEF08A">Can you fix this?</mark>
   </>}
   figurePrefix="bad"
   figure="Reason at the bottom"
@@ -177,9 +177,9 @@ When you have an image or other information, remember to keep the main reason te
   body={<>
     ## Hi John
 
-==I couldn't call you as I’m still in the hospital.==
+<mark style="background-color: #FEF08A">I couldn't call you as I’m still in the hospital.</mark>
 
-1. ==Can you fix this?==
+1. <mark style="background-color: #FEF08A">Can you fix this?</mark>
 
 ![Figure: Screenshot of Power BI error](/uploads/rules/as-per-our-conversation-emails/powerbi-error.png)
   </>}
